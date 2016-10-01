@@ -2,7 +2,7 @@
 #include <bitset>
 using namespace std;
 
-int combineNumber(bitset<32> _N, bitset<32> _M, int j, int i) {
+int updateBits(bitset<32> _N, bitset<32> _M, int j, int i) {
 	int N = _N.to_ulong();
 	int M = _M.to_ulong();
 	cout << "N:     " << _N << endl;
@@ -25,7 +25,7 @@ int combineNumber(bitset<32> _N, bitset<32> _M, int j, int i) {
 }
 
 int main() {
-	int result = combineNumber(
+	int result = updateBits(
 		bitset<32>("100000000000"), 
 		bitset<32>("10011"),
 		6,
