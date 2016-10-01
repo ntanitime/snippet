@@ -1,0 +1,2 @@
+cc && g++ -std=c++11 -o ex Q5_1.cpp && ./ex
+cc && javac Q5_1.java && java Q5_1
